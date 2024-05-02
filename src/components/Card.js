@@ -16,7 +16,7 @@ const Card = ({ data }) => {
   const decoded = htmlDecode(selftext_html);
 
   return (
-    <div className="bg-transparent border border-red-600 b rounded-sm lg:w-[75%] sm:w-[100%] md:w-[85%] p-6 flex flex-col justify-start items-start gap-4   hover:shadow-sm hover:-translate-y-1 hover:transition-all">
+    <div className="bg-transparent border border-red-600 b rounded-sm lg:w-[75%] sm:w-[95%] md:w-[85%] p-6 flex flex-col justify-start items-start gap-4   hover:shadow-sm hover:-translate-y-1 hover:transition-all">
       <h3 className="text-red-600 font-medium text-xl">{title}</h3>
       <p
         className="text-slate-200 text-base font-normal md md-p md-ul md-ol md-hr md-pre md-pre-code md-p-a hover:md-p-a"

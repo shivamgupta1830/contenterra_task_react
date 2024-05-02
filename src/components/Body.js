@@ -14,6 +14,14 @@ const Body = () => {
           Loading...
         </h1>
       )}
+      <div>
+        <a
+          href="#"
+          className="bg-red-600 px-2 py-1 text-slate-200 font-normal rounded-sm hover:bg-red-500 -mb-4 hover:transition-all fixed bottom-10 right-2 font-semibold "
+        >
+          &uarr;
+        </a>
+      </div>
     </div>
   );
 };
